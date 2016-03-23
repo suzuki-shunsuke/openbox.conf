@@ -92,7 +92,7 @@
   </font>
   <font place="MenuItem">
     <name>sans</name>
-    <size>9</size>
+    <size>14</size>
     <!-- font size in points -->
     <weight>normal</weight>
     <!-- 'bold' or 'normal' -->
@@ -260,7 +260,7 @@
   <!-- Keybindings for running applications -->
   <keybind key="W-z">
     <action name="ShowMenu">
-      <menu>root-menu</menu>
+      <menu>shutdown-menu</menu>
     </action>
   </keybind>
 
