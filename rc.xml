@@ -128,7 +128,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-  <number>4</number>
+  <number>1</number>
   <firstdesk>1</firstdesk>
   <names>
     <!-- set names up here if you want to, like this:
@@ -320,7 +320,7 @@
   <screenEdgeWarpMouse>false</screenEdgeWarpMouse>
   <!-- Set this to TRUE to move the mouse pointer across the desktop when
        switching due to hitting the edge of the screen -->
-
+<!--
   <context name="Frame">
     <mousebind button="A-Left" action="Press">
       <action name="Focus"/>
@@ -347,7 +347,6 @@
       <action name="FocusToBottom"/>
       <action name="Unfocus"/>
     </mousebind>
-
     <mousebind button="A-Up" action="Click">
       <action name="GoToDesktop"><to>previous</to></action>
     </mousebind>
@@ -577,7 +576,6 @@
     <mousebind button="C-A-Down" action="Click">
       <action name="GoToDesktop"><to>next</to></action>
     </mousebind>
-
     <mousebind button="Left" action="Press">
       <action name="Focus"/>
       <action name="Raise"/>
@@ -587,7 +585,7 @@
       <action name="Raise"/>
     </mousebind>
   </context>
-
+-->
   <context name="Root">
     <!-- Menus -->
     <mousebind button="Middle" action="Press">
@@ -597,7 +595,7 @@
       <action name="ShowMenu"><menu>root-menu</menu></action>
     </mousebind>
   </context>
-
+<!--
   <context name="MoveResize">
     <mousebind button="Up" action="Click">
       <action name="GoToDesktop"><to>previous</to></action>
@@ -612,6 +610,7 @@
       <action name="GoToDesktop"><to>next</to></action>
     </mousebind>
   </context>
+-->
 </mouse>
 
 <menu>

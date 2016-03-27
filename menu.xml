@@ -117,7 +117,7 @@
   </item>
   <item label="Suspend">
     <action name="Execute">
-      <execute>sudo pm-suspend</execute>
+      <execute>sudo systemctl suspend</execute>
     </action> 
   </item>
 </menu>
